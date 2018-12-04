@@ -180,6 +180,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryBll\ClassLibraryBll.csproj">
+      <Project>{bd8c8bf8-ea9e-4288-9aed-cc84575eaed5}</Project>
+      <Name>ClassLibraryBll</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WcfServiceDemoAzure\WcfServiceDemoAzure.csproj">
       <Project>{06d94a2d-a116-42bd-b8ff-3eee24110dec}</Project>
       <Name>WcfServiceDemoAzure</Name>

@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.Mvc;
+﻿using DemoAzureGitHub.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DemoAzureGitHub;
-using DemoAzureGitHub.Controllers;
+using System.Web.Mvc;
 
 namespace DemoAzureGitHub.Tests.Controllers
 {
@@ -35,7 +30,7 @@ namespace DemoAzureGitHub.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Your application description page.", result.ViewBag.Message);
+            if (result != null) Assert.AreEqual("Your application description page.", result.ViewBag.Message);
         }
 
         [TestMethod]

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAzureGitHub.Tests", "De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceDemoAzure", "WcfServiceDemoAzure\WcfServiceDemoAzure.csproj", "{06D94A2D-A116-42BD-B8FF-3EEE24110DEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryBll", "ClassLibraryBll\ClassLibraryBll.csproj", "{BD8C8BF8-EA9E-4288-9AED-CC84575EAED5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{06D94A2D-A116-42BD-B8FF-3EEE24110DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06D94A2D-A116-42BD-B8FF-3EEE24110DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06D94A2D-A116-42BD-B8FF-3EEE24110DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8C8BF8-EA9E-4288-9AED-CC84575EAED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8C8BF8-EA9E-4288-9AED-CC84575EAED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8C8BF8-EA9E-4288-9AED-CC84575EAED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8C8BF8-EA9E-4288-9AED-CC84575EAED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
